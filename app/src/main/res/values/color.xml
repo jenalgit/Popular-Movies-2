@@ -7,19 +7,19 @@
     <color name="black">#000000</color>
 
 
-    <color name="primary">#009688</color>  <!-- 500 -->
-    <color name="primary_dark">#00796B</color>  <!-- 700 -->
-    <color name="primary_light">#B2DFDB</color> <!-- 100 -->
-    <color name="accent">#64FFDA</color>
+    <color name="primary">#E65100</color>  <!-- 500 -->
+    <color name="primary_dark">#EF6C00</color>  <!-- 700 -->
+    <color name="primary_light">#FB8C00</color> <!-- 100 -->
+    <color name="accent">#FF9800</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#727272</color>
 
-    <color name="starFullySelected">#FF2A21</color>
-    <color name="starPartiallySelected">#FF2A21</color>
-    <color name="starNotSelected">#00796B</color>
+    <color name="starFullySelected">#FFA726</color>
+    <color name="starPartiallySelected">#FFB74D</color>
+    <color name="starNotSelected">#9E9E9E</color>
 
-    <color name="favorite_not_selected">#64FFDA</color>
+    <color name="favorite_not_selected">#CFD8DC</color>
     <color name="favorite_selected">#FF2A21</color>
     <color name="text_favorite_not_selected">#767676</color>
-    <color name="text_favorite_selected">#FFFFFF</color>
+    <color name="text_favorite_selected">#ECEFF1</color>
 </resources>
