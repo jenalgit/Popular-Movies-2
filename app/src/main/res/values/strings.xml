@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Popular Movies</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Sort By</string>
     <string name="title_activity_movie_details">MovieDetailsActivity</string>
     <string name="label_text_button_favorite">MARK AS FAVORITE</string>
     <string name="label_text_view_trailers">Trailers:</string>
@@ -25,4 +25,14 @@
     <string name="empty_movies_list_no_network">No Movies Information Available. The Network is not available to fetch movies data.</string>
     <string name="empty_movies_list_server_down">No Movies information available. The server is not returning data.</string>
     <string name="empty_movies_list_server_error">No Movies information available. The server is not returning valid data. Please check for an updated version of Popular Movies.</string>
+
+    <string name="popularity">popularity.desc</string>
+    <string name="vote_average">vote_average.desc</string>
+    <string name="revenue">revenue.desc</string>
+    <string name="favorite">favorite</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="revenueT">Revenue</string>
+    <string name="MyFavorite">My Favorites</string>
+
 </resources>
