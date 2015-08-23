@@ -3,7 +3,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Sort By</string>
     <string name="title_activity_movie_details">MovieDetailsActivity</string>
-    <string name="label_text_button_favorite">MARK AS FAVORITE</string>
+    <string name="label_text_button_favorite">FAVORITE</string>
     <string name="label_text_view_trailers">Trailers:</string>
     <string name="label_text_view_reviews">Reviews:</string>
     <string name="label_text_view_release_date">Release Date:</string>

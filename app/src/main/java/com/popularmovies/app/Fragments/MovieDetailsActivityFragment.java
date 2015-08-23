@@ -26,7 +26,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RatingBar;
@@ -69,7 +69,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
     private ListView mMovieReviewsListView = null;
     private TextView mTrailersEmptyView = null;
     private TextView mReviewsEmptyView     = null;
-    private Button mFavoriteButton = null;
+    private ImageButton mFavoriteButton = null;
     private ImageView mCalendarImageView = null;
     private View mDetailsSeperator = null;
     private TextView mTrailersHeaderTextView = null;
@@ -196,7 +196,8 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
 
             }
         } else {
-            clearViews();
+
+            rootView.setVisibility(View.INVISIBLE);
         }
 
         return rootView;
@@ -221,7 +222,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         mMovieRatingsView      = (RatingBar) rootView.findViewById(R.id.detail_ratings);
         mMovieTrailersListView = (ListView) rootView.findViewById(R.id.listview_trailers);
         mMovieReviewsListView  = (ListView) rootView.findViewById(R.id.listview_reviews);
-        mFavoriteButton        = (Button) rootView.findViewById(R.id.button_favorite);
+        mFavoriteButton        = (ImageButton) rootView.findViewById(R.id.button_favorite);
         mMovieOverviewView     = (TextView) rootView.findViewById(R.id.detail_overview);
 
         // empty views for ListViews
@@ -229,7 +230,6 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         mReviewsEmptyView      = (TextView) rootView.findViewById(R.id.listview_reviews_empty);
 
         mCalendarImageView     = (ImageView) rootView.findViewById(R.id.imageview_calendar);
-        mDetailsSeperator      = rootView.findViewById(R.id.detail_seperator);
         mTrailersHeaderTextView= (TextView) rootView.findViewById(R.id.detail_label_trailers);
         mReviewsHeaderTextView = (TextView) rootView.findViewById(R.id.detail_label_reviews);
     }
@@ -348,8 +348,8 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         mFavoriteButton.setOnClickListener(this);
 
         if (isMovieFavorite()) {
-            mFavoriteButton.setBackgroundColor(getResources().getColor(R.color.favorite_selected));
-            mFavoriteButton.setTextColor(getResources().getColor(R.color.text_favorite_selected));
+           // mFavoriteButton.setBackgroundColor(getResources().getColor(R.color.favorite_selected));
+            mFavoriteButton.setImageResource(R.drawable.heart);
         }
 
     }
@@ -452,7 +452,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         if (isAlreadyFavorite) {
             favoriteMovieIdsSet.remove(Integer.toString(movieId));
             labelId = R.string.label_movie_marked_not_favorite;
-            backgroundColorId = R.color.favorite_not_selected;
+            backgroundColorId = R.drawable.heartgray;
             textColorId = R.color.text_favorite_not_selected;
             MoviesSyncAdapter.syncImmediately(getActivity());
 
@@ -463,7 +463,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
             prefsEdit.commit();
 
             labelId = R.string.label_movie_marked_favorite;
-            backgroundColorId = R.color.favorite_selected;
+            backgroundColorId = R.drawable.heart;
             textColorId = R.color.text_favorite_selected;
         }
 
@@ -474,8 +474,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         mFavoriteToast = Toast.makeText(mContext, getString(labelId), Toast.LENGTH_SHORT);
 
         mFavoriteToast.show();
-        mFavoriteButton.setBackgroundColor(getResources().getColor(backgroundColorId));
-        mFavoriteButton.setTextColor(getResources().getColor(textColorId));
+        mFavoriteButton.setImageResource(backgroundColorId);
 
     }
 

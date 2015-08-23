@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-3616562eac93c4fd47a8b85fc7f13af8e0f4c764.jar" />
+    </item>
+    <item
+        jar="/Users/Josmary/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e29f6a1b6b22851e185b3727d4dd60f24473d033.jar" />
+    </item>
+    <item
         jar="/Users/Josmary/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         revision="22.0.0"
@@ -9,11 +23,25 @@
         <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-e89ce2df3b197d4d4329759ae7ca9af673e4300d.jar" />
     </item>
     <item
-        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-3616562eac93c4fd47a8b85fc7f13af8e0f4c764.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-2af8897c0a8b0ec855639918d86e2280516386ac.jar" />
+    </item>
+    <item
+        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-52f6f8b31bbc750210de059d37b9c07e94052bc7.jar" />
+    </item>
+    <item
+        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-5ea71425c406103e2d1e804f8a1540e81b1a51d5.jar" />
     </item>
     <item
         jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/libs/YouTubeAndroidPlayerApi.jar"
@@ -28,27 +56,6 @@
         revision="22.0.0"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-9973b83fa2d31254a3153b7af88dc0c3739382fb.jar" />
-    </item>
-    <item
-        jar="/Users/Josmary/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e29f6a1b6b22851e185b3727d4dd60f24473d033.jar" />
-    </item>
-    <item
-        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-5ea71425c406103e2d1e804f8a1540e81b1a51d5.jar" />
-    </item>
-    <item
-        jar="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/Josmary/AndroidStudioProjects/Popular-Movies-2/app/build/intermediates/pre-dexed/debug/classes-2af8897c0a8b0ec855639918d86e2280516386ac.jar" />
     </item>
 
 </items>
