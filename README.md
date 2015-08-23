@@ -1,3 +1,3 @@
-# Popular-Movies-2
-Nanodegree's Popular Movies Stage 2
+# MyPopularMovies 2
+Popular Movies Stage 2
 
